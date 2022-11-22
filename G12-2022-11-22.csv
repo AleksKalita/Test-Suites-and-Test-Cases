@@ -1,0 +1,259 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,6,1,"Testing Documentation Aleksandr Kalita",1
+51,"Add Customer: FirstName validation - invalid(Cyrillic)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type in ""FirstName"" name in Cyrillic
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Cyrillic are not allowed"" message is shown
+","1. 
+2. Василий
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+52,"Add Customer: FirstName validation - invalid(Numbers)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type numbers in ""FirstName""
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Numbers are not allowed"" message is shown
+","1. 
+2. 12345
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+53,"Add Customer: FirstName validation - invalid(Special characters)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type any special characters in ""FirstName""
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Special characters are not allowed"" message is shown
+","1. 
+2. =\*
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+54,"Add Customer: FirstName validation - invalid(Cyrillic, Numbers, Special characters)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type in ""FirstName"" any numbers, Cyrillic and special characters
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Numbers, Cyrillic and special characters are not allowed"" message is shown
+","1. 
+2. Василий666!
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+55,"Add Customer: FirstName validation - invalid(Empty field)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Leave ""FirstName"" field empty
+3. Click ""Submit""
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. 
+3. ""First Name must not be blank"" message is shown
+","1. 
+2. 
+3. 
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+56,"Add Customer: FirstName validation - valid(Latin, 1 symbol)",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type in ""FirstName"" any Latin symbol
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+","1. 
+2. a
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+57,"Add Customer: FirstName validation - valid(Latin, 10 symbols)",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type in ""FirstName"" ten Latin symbols
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+","1. 
+2. Philosophy
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+58,"Add Customer: LastName validation - invalid(Cyrillic)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type in ""LastName"" name in Cyrillic
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Cyrillic are not allowed"" message is shown
+","1. 
+2. Петров
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+59,"Add Customer: LastName validation - invalid(Numbers)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type numbers in ""LastName""
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Numbers are not allowed"" message is shown
+","1. 
+2. 12345
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+60,"Add Customer: LastName validation - invalid(Special characters)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type any special characters in ""LastName""
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Special characters are not allowed"" message is shown
+","1. 
+2. =\*
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+61,"Add Customer: LastName validation - invalid(Cyrillic, Numbers, Special characters)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type in ""LastName"" any numbers, Cyrillic and special characters
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Numbers, Cyrillic and special characters are not allowed"" message is shown
+","1. 
+2. Петров777?
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+62,"Add Customer: LastName validation - invalid(Empty field)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Leave ""LastName"" field empty
+3. Click ""Submit""
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. 
+3. ""Last Name must not be blank"" message is shown
+","1. 
+2. 
+3. 
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+63,"Add Customer: LastName validation - valid(Latin, 1 symbol)",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type in ""LastName"" any Latin symbol
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+","1. 
+2. b
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+66,"Add Customer: LastName validation - valid(Latin, 8 symbols)",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Type in ""LastName"" eight Latin symbols
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+","1. 
+2. Petrovich
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+67,"Add Customer: Email validation - valid(1 Latin symbol, @, .com)",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Click ""Add Customer"" button
+2. Type in ""Email"" any Latin symbol, @, .com
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+","1. 
+2. a@yandex.com
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+68,"Add Customer: Email validation - valid(8 Latin symbols, @, .ru)",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Click ""Add Customer"" button
+2. Type in ""Email"" nine Latin symbols, @, .ru
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+","1. 
+2. aleksandr@yandex.ru
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+69,"Add Customer: ""Reset"" button resets clears all fields and error messages",,"Open https://demo.guru99.com/telecom/index.html",,,low,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Click ""Add Customer"" button
+2. Input any numbers in ""FirstName""
+3. Input any special characters in ""LastName""
+4. Input any numbers in ""Email""
+5. Input any special character in ""Address""
+6. Input any symbol in ""Mobile number""
+7. Click ""Reset"" button
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Numbers are not allowed"" error message occurs
+3. ""Special characters are not allowed"" error message occurs
+4. ""Email-ID is not valid"" error message occurs
+5. ""Special characters are not allowed"" error message occurs
+6. ""Characters are not allowed"" error message occurs
+7. All data reset and no error messages are shown
+","1. 
+2. 555
+3. !!!
+4. 123
+5. +
+6. a
+7. 
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+108,"Add Customer: Mobile Number validation - valid(eleven numbers without ""+"")",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Input in ""Mobile number"" eleven numbers
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+","1. 
+2. 89999999999
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+109,"Add Customer: Mobile Number validation - valid(eleven numbers with ""+"")",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Input in ""Mobile number"" eleven numbers and ""+""
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+","1. 
+2. +79999999999
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+110,"Add Customer: Mobile Number validation - invalid(Characters)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Input in ""Mobile number"" any character
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Characters are not allowed"" message is shown
+","1. 
+2. a
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+111,"Add Customer: Mobile Number validation - invalid(Special characters)",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Input in ""Mobile number"" any special character
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Special characters are not allowed"" message is shown
+","1. 
+2. +
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+112,"Add Customer: Submit button - valid",,"Open https://demo.guru99.com/telecom/index.html",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Input valid ""FirstName""
+3. Input valid ""LastName""
+4. Input valid ""Email""
+5. Input valid ""Address""
+6. Input valid ""Mobile Number""
+7. Click ""Submit"" button
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. No error message is shown
+3. No error message is shown
+4. No error message is shown
+5. No error message is shown
+6. No error message is shown
+7. New page with Customer ID, ""Please Note Down Your Customer ID"" message and ""Home"" button are shown. ""Home"" returns user to main page https://demo.guru99.com/telecom/index.html
+","1. 
+2. Aleksandr
+3. Kalita
+4. akalita@gmail.com
+5. Russia
+6. 89999999999
+7. 
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+148,"Add Customer: Submit button - invalid",,"Open https://demo.guru99.com/telecom/index.html",,,medium,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Click on ""Add Customer"" button
+2. Input cyrillic ""FirstName""
+3. Input valid ""LastName""
+4. Input valid ""Email""
+5. Input valid ""Address""
+6. Input valid ""Mobile Number""
+7. Click ""Submit"" button
+","1. https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""Cyrillic are not allowed"" error message is shown
+3. No error message is shown
+4. No error message is shown
+5. No error message is shown
+6. No error message is shown
+7. New customer is not created, ""Please fill all fields"" message is shown
+","1. 
+2. Федя
+3. Kalita
+4. akalita@gmail.com
+5. Russia
+6. 89999999999
+7. 
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+154,"Add Customer: Active field color",,"Open https://demo.guru99.com/telecom/index.html",,,low,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Click ""Add Customer"" button
+2. Click on ""FirstName"" field
+3. Click on ""LastName"" field
+4. Click on ""Email"" field
+5. Click on ""Address"" field
+6. Click on ""Mobile number"" field
+","1. New page https://demo.guru99.com/telecom/addcustomer.php is opened
+2. ""FirstName"" field is glowing blue
+3. ""LastName"" field is glowing blue
+4. ""Email"" field is glowing blue
+5. ""Address"" field is glowing blue
+6. ""Mobile number"" field is glowing blue
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+155,"Add Customer: Placeholder inside fields",,"Open https://demo.guru99.com/telecom/index.html",,,low,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Click ""Add Customer"" button
+2. Leave ""FirstName"" field empty
+3. Leave ""LastName"" field empty
+4. Leave ""Email"" field empty
+5. Leave ""Address"" field empty
+6. Leave ""Mobile number"" field empty
+","1. New page https://demo.guru99.com/telecom/addcustomer.php is opened
+2. Placeholder ""FirstName"" inside ""FirstName"" field is shown
+3. Placeholder ""LastName"" inside ""LastName"" field is shown
+4. Placeholder ""Email"" inside ""Email"" field is shown
+5. Placeholder ""Address"" inside ""Address"" field is shown
+6. Placeholder ""Mobile number"" inside ""Mobile number"" field is shown
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+",,,6,1,"Testing Documentation Aleksandr Kalita",
+161,"Add Customer: Clicking logo button resets the page",,"Open https://demo.guru99.com/telecom/index.html",,,low,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Open ""Add customer page""
+2. Click at the logo ""Guru99 telecom""
+","1. New page https://demo.guru99.com/telecom/addcustomer.php is opened
+2. The page is refreshed
+","1. 
+2. 
+",,,6,1,"Testing Documentation Aleksandr Kalita",
