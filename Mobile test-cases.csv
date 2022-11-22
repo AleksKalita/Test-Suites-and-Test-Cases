@@ -1,0 +1,108 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",1
+358,"Add new TO-DO: Input Latin in ""Title"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input Latin in Title
+2. Tap ""Check mark"" button
+","1. ""Task"" in Title
+2. New TO-DO is created
+","1. Task
+2. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+359,"Add new TO-DO: Input Cyrillic in ""Title"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input Cyrillic in Title
+2. Tap ""Check mark"" button
+","1. ""Задание"" in Title
+2. New TO-DO is created
+","1. Задание
+2. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+360,"Add new TO-DO: Input numbers in ""Title"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input numbers in Title
+2. Tap ""Check mark"" button
+","1. ""123"" in Title
+2. New TO-DO is created
+","1. 123
+2. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+361,"Add new TO-DO: Input special characters in ""Title"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input special characters in Title
+2. Tap ""Check mark"" button
+","1. ""!!!"" in Title
+2. New TO-DO is created
+","1. !!!
+2. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+362,"Add new TO-DO: Input Latin in ""Enter your TO-DO here"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input Latin in Title
+2. Input Latin in ""Enter your TO-DO here"" field
+3. Tap ""Check mark"" button
+","1. ""New"" in title
+2. ""Todo"" ""Enter your TO-DO here"" field
+3. New TO-DO is created
+","1. New
+2. Todo
+3. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+363,"Add new TO-DO: Input Cyrillic in ""Enter your TO-DO here"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input Cyrillic in Title
+2. Input Cyrillic in ""Enter your TO-DO here"" field
+3. Tap ""Check mark"" button
+","1. ""Новый"" in title
+2. ""Список"" ""Enter your TO-DO here"" field
+3. New TO-DO is created
+","1. Новый
+2. Список
+3. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+364,"Add new TO-DO: Input numbers in ""Enter your TO-DO here"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input Latin in Title
+2. Input numbers in ""Enter your TO-DO here"" field
+3. Tap ""Check mark"" button
+","1. ""New"" in title
+2. ""555"" in ""Enter your TO-DO here"" field
+3. New TO-DO is created
+","1. New
+2. 555
+3. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+365,"Add new TO-DO: Input special characters in ""Enter your TO-DO here"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input Latin in ""Title""
+2. Input special characters in ""Enter your TO-DO here"" field
+3. Tap ""Check mark"" button
+","1. Task in ""Title""
+2. ""%%%"" ""Enter your TO-DO here"" field
+3. New TO-DO is created
+","1. Task
+2. %%%
+3. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+366,"Add new TO-DO: leave ""Title"" field empty",,"TO-DO creation screen",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Leave ""Title"" field empty
+2. Tap ""Check mark"" button
+","1. Title field is empty
+2. ""Title cannot be empty"" message
+","1. 
+2. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+367,"Add new TO-DO: Input ""space"" in ""Title"" field",,"TO-DO creation screen",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input ""space"" in Title
+2. Tap ""Check mark"" button
+","1. "" "" in title
+2. New TO-DO is created
+","1. "" ""
+2. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+368,"Add new TO-DO: create two TO-DO's with same title",,"TO-DO creation screen",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Create TO-DO with ""Task"" in title
+2. Tap ""Check mark"" button
+3. Create TO-DO with ""Task"" in title
+4. Tap ""Check mark"" button
+","1. TO-DO with ""Task"" in title
+2. TO-DO with ""Task"" in title is created
+3. TO-DO with ""Task"" in title
+4. ""TO-DO with chosen name already exists"" error message
+","1. Task
+2. 
+3. Task
+4. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+369,"Add new TO-DO: Tap Back to return to main app's screen",,"TO-DO creation screen",,,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Tap ""Back"" button
+","1. Redirects to main app's screen
+","1. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
+370,"Add new TO-DO: Input 80 Latin characters in ""Title"" field",,"TO-DO creation screen",,,low,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Input 80 Latin in Title
+2. Tap ""Check mark"" button
+","1. ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"" in title
+2. New TO-DO is created
+","1. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2. 
+",,,18,2,"Mobile App Testing Documentation Aleksandr Kalita",
